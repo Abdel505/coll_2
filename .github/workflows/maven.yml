@@ -53,6 +53,6 @@ jobs:
             -Dsonar.projectKey=abdel505_collection-j \
             -Dsonar.organization=abdel505 \
             -Dsonar.host.url=https://sonarcloud.io \
-            -Dsonar.login=$SONAR_TOKEN
+            -Dsonar.login=$SONAR_TOKEN \
             -Dsonar.branch.name=Main
 
