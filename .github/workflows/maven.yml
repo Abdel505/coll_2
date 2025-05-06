@@ -55,7 +55,7 @@ jobs:
 
     # SonarCloud Analysis
     - name: SonarCloud Scan
-      uses: SonarSource/sonarcloud-github-action@v2
+      uses: SonarSource/sonarcloud-github-action@v5
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} # Make sure to add this secret
       with:
