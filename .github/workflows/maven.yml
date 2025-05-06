@@ -47,7 +47,7 @@ jobs:
           java-version: 17
       - run: |
           mvn --batch-mode --no-transfer-progress verify sonar:sonar \
-            -Dsonar.projectKey=abdel505_collection-2 \
+            -Dsonar.projectKey=abdel505_collection-j \
             -Dsonar.organization=abdel505 \
             -Dsonar.host.url=https://sonarcloud.io
         env:
